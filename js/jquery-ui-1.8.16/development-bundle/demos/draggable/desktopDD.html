@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Draggable - Constrain movement</title>
+	<link rel="stylesheet" href="../../themes/base/jquery.ui.all.css">
+	<script src="../../jquery-1.6.2.js"></script>
+	<script src="../../ui/jquery.ui.core.js"></script>
+	<script src="../../ui/jquery.ui.widget.js"></script>
+	<script src="../../ui/jquery.ui.mouse.js"></script>
+	<script src="../../ui/jquery.ui.draggable.js"></script>
+
+	<style>
+		.draggable { width: 90px; height: 90px; padding: 0.5em; float: left; margin: 0 10px 10px 0;}
+		#draggable, #draggable2 { margin-bottom:20px; }
+
+	</style>
+	<script>
+	$(function() {
+
+		$( "#draggable5" ).draggable({ containment: "parent" });
+	});
+	</script>
+</head>
+<body>
+
+
+
+
+
+
+<div class="draggable ui-widget-content" style="width:400px">
+	<p id="draggable5" class="ui-widget-header" style="width:20px; height:40px"></p>
+</div>
+
+
+
+
+</body>
+</html>

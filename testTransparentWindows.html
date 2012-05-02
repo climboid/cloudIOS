@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+	<title> test transparent windows</title>
+	<style>
+		body{background:#ccc;}
+		.mainBox{width:400px; height:400px;}
+		.container{ background:transparent; position:absolute; z-index:2;}
+		.box{ background:#fff;opacity:0.3; width:400px; height:400px; position:absolute;}
+	</style>
+</head>
+<body>
+	<div class="mainBox">
+		<div class="box"></div>
+		<div class="container">hello world!!!!</div>		
+	</div>
+</body>
+</html>
